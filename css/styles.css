@@ -6,9 +6,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(230, 75, 75); /* Añade el punto y coma aquí */
-  background-image: url(../img/background.jpg); /* Ruta relativa desde styles.css */
-  background-repeat: repeat; /* Repetir la imagen en mosaico */
+  background-color: rgb(230, 75, 75);
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat;
 }
 
 header {
