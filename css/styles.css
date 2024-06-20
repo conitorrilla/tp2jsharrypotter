@@ -6,6 +6,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(230, 75, 75); /* Añade el punto y coma aquí */
+  background-image: url(../img/background.jpg); /* Ruta relativa desde styles.css */
+  background-repeat: repeat; /* Repetir la imagen en mosaico */
 }
 
 header {
@@ -33,6 +36,8 @@ nav ul li a {
 main {
   padding: 2em;
   text-align: center;
+  max-width: 80%; 
+  margin: 0 auto;
 }
 
 .intro {
@@ -45,13 +50,23 @@ footer {
   color: white;
   text-align: center;
   padding: 1em 0;
-  position: relative;
+  position: fixed;
   width: 100%;
+  bottom: 0;
+}
+
+.textbox {
+  background-color: #7aa9ee; /* Color rosa pastel */
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px; /* Espacio inferior entre cajas de texto */
 }
 
 /* Estilos del carrusel */
 .carousel-content {
   text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
   padding: 20px;
 }
 
