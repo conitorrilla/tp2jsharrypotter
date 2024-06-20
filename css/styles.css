@@ -1,3 +1,6 @@
+/* styles.css */
+
+/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -42,7 +45,22 @@ footer {
   color: white;
   text-align: center;
   padding: 1em 0;
-  position: fixed;
+  position: relative;
   width: 100%;
-  bottom: 0;
+}
+
+/* Estilos del carrusel */
+.carousel-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Color de los controles */
 }
