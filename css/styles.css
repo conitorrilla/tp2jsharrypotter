@@ -1,6 +1,16 @@
 /* styles.css */
 
 /* Estilos generales */
+* {
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "magic";
+  src: url(../fonts/Magic.otf);
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -15,6 +25,12 @@ header {
   background-color: #343a40;
   color: white;
   padding: 1em 0;
+}
+
+h1,
+h2 {
+  font-family: "magic";
+  font-size: 80px;
 }
 
 nav ul {
