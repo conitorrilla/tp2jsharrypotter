@@ -79,3 +79,46 @@ footer {
 .carousel-control-next-icon {
   background-color: black; /* Color de los controles */
 }
+
+/* Estilos para la sección de personajes */
+.characters {
+  padding: 2em;
+  text-align: center;
+}
+
+/* Contenedor de las tarjetas de personajes */
+.grid {
+  display: flex;
+  flex-wrap: wrap; /* Asegura que los elementos se envuelvan en múltiples líneas si no caben en una sola */
+  justify-content: space-around; /* Distribución equitativa de los elementos con espacio alrededor */
+  background-color: #7aa9ee; /* Color de fondo del grid */
+  padding: 20px; /* Ajuste de relleno para separación del borde */
+  border-radius: 10px; /* Borde redondeado para el grid */
+}
+
+/* Estilos para las tarjetas de personajes */
+.card {
+  width: 250px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
