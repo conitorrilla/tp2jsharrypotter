@@ -56,11 +56,13 @@ footer {
 }
 
 .textbox {
-  background-color: #7aa9ee; /* Color rosa pastel */
+  background-color: #7aa9ee; 
   padding: 15px;
   border-radius: 8px;
-  margin-bottom: 10px; /* Espacio inferior entre cajas de texto */
+  margin-bottom: 10px; 
 }
+
+
 
 /* Estilos del carrusel */
 .carousel-content {
